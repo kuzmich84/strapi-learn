@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_config_sicial_links",
+  "info": {
+    "displayName": "sicialLink",
+    "icon": "chartBubble"
+  },
+  "options": {},
+  "attributes": {
+    "socialMedia": {
+      "type": "enumeration",
+      "enum": [
+        "gitHub",
+        "YouTube",
+        "faceBook",
+        "whatsUp"
+      ],
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
